@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="popupwindow_anim_right_style">
+        <item name="android:windowEnterAnimation">@anim/popup_right_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_right_hide</item>
+    </style>
+
+    <style name="popupwindow_anim_left_style">
+        <item name="android:windowEnterAnimation">@anim/popup_left_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_left_hide</item>
+    </style>
+
+    <style name="popupwindow_anim_middle_style">
+        <item name="android:windowEnterAnimation">@anim/popup_middle_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_middle_hide</item>
+    </style>
+</resources>

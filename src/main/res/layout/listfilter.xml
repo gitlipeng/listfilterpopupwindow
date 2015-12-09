@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 团购列表界面的筛选标题布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tv_screening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="14dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:text="@string/loading"
+        android:textColor="@color/filter_title_unselect"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/img_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/right_bottom_unselect"
+        android:layout_alignRight="@id/tv_screening"
+        android:layout_alignBottom="@id/tv_screening"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"/>
+
+</RelativeLayout>

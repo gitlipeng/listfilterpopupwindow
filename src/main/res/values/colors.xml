@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="listitem_color">#E9E9E9</color>
+    <color name="filter_title_selected">#7D4697</color><!-- ffFBA544   -->
+    <color name="gray">#8d8d8d</color>
+    <color name="lightgray">#F2F2F2</color>
+    <color name="filter_title_unselect">#5D5D5D</color>
+    <color name="filter_main_text">#FF666666</color>
+    <color name="transparent">#00000000</color>
+</resources>
